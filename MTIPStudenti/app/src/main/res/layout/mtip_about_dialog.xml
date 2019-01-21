@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MTIPAboutDialogContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/dialogButtonOKClose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/MTIPDialogOK" />
+
+    <TextView
+        android:id="@+id/textViewPraznoDijalogAbout"
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:layout_above="@id/dialogButtonOKClose" />
+
+    <ImageView
+        android:id="@+id/gornjaLinija"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/MTIPContentDescription"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/dialog_line" />
+
+    <ImageView
+        android:id="@+id/donjaLinija"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_above="@id/textViewPraznoDijalogAbout"
+        android:contentDescription="@string/MTIPContentDescription"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/dialog_line" />
+
+    <ScrollView
+        android:id="@+id/scrollViewADialogMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/donjaLinija"
+        android:layout_below="@id/gornjaLinija">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewPraznoDijalogAboutGornja"
+                android:layout_width="fill_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:id="@+id/TextViewPraznoPrvi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewMTIPNazivAplikacije"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|center"
+                android:text="@string/MTIPAbout"
+                android:textSize="16dp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/TextViewPraznoDrugi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewMTIPTrenutnaVerzija"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/MTIPTrenutnaVerzija" />
+
+            <TextView
+                android:id="@+id/TextViewPraznoTreci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textviewAboutDialogEmal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/MTIPAndroidEmail"
+                android:textColor="#FF0000FF" />
+
+            <TextView
+                android:id="@+id/textviewMTIPOAplikacijiDialogCopyright"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="3"
+                android:padding="10dp"
+                android:text="@string/MTIPCopyrightMain"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/op_background"
+    android:id="@+id/linearLayoutStudentiUniversalContainer"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="100dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:gravity="end"
+                android:id="@+id/textViewPrezimeLABEL"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/MTIPStudentiDetaljiPrezime"
+                />
+
+            <TextView
+                android:gravity="end"
+                android:id="@+id/textViewImeLABEL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/MTIPStudentiDetaljiIme"
+                 />
+
+            <TextView
+                android:gravity="end"
+                android:id="@+id/textViewBrojIndeksaLABEL"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/MTIPStudentiDetaljiBrojIndeksa"/>
+
+            <TextView
+                android:gravity="end"
+                android:id="@+id/textViewStudijskiProgramLABEL"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/MTIPStudentiDetaljiStudijskiProgram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:ellipsize="end"
+                android:id="@+id/textViewPrezimeDATA"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:ellipsize="end"
+                android:id="@+id/textViewImeDATA"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:ellipsize="end"
+                android:id="@+id/textViewBrojIndeksaDATA"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:ellipsize="end"
+                android:id="@+id/textViewStudijskiProgramDATA"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTasteri"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonIzmeniStudenta"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:text="@string/MTIPStudentiDetaljiIzmeniStudenta"/>
+
+        <Button
+            android:id="@+id/buttonObrisiStudenta"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:text="@string/MTIPStudentiDetaljiObrisiStudenta"/>
+    </LinearLayout>
+</LinearLayout>

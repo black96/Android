@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MTIP Studenti</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mtiptest">MTIPTestActivity</string>
+
+
+    <string name="navBar_title">MTIP Studenti</string>
+    <string name="navBar_email">mtip.studenti@tfzr.uns.ac.rs</string>
+    <string name="navBar_Home_Menu">Pretraga</string>
+    <string name="navBar_Studenti_Menu">Studenti</string>
+    <string name="navBar_Smerovi_Menu">Studijski programi</string>
+    <string name="navBar_O_Aplikaciji">O Aplikaciji</string>
+    <string name="MTIPDialogOK">OK</string>
+    <string name="MTIPContentDescription"></string>
+    <string name="MTIPAbout">MTIP Studenti</string>
+    <string name="MTIPTrenutnaVerzija">Trenutna Verzija 0.0.1.2</string>
+    <string name="MTIPAndroidEmail">mtip.studenti@tfzr.uns.ac.rs</string>
+    <string name="MTIPCopyrightMain">&quot;Copyright © 2017 Tehnički fakultet\&quot;Mihajlo Pupin\&quot;\n Sva prava zadržana&quot;</string>
+
+    <string name="MTIPIzracunaj">Izračunaj</string>
+    <string name="navBar_Kalkulator">Kalkulator</string>
+
+    <string name="MTIPStudentiPregragaFragmentNaziv">Pretraga studenata</string>
+    <string name="MTIPStudentiFragmentHintIDStudenta">ID studenta</string>
+    <string name="MTIPStudentiFragmentHintPrezime">Prezime studenta</string>
+    <string name="MTIPStudentiFragmentHintIme">Ime studenta</string>
+    <string name="MTIPStudentiFragmentHintBrojIndeksa">Broj indeksa</string>
+    <string name="MTIPStudentiPregragaFragmentRezultatiPretrage">Rezultati pretrage</string>
+    <string name="MTIPStudentiDodajNovogStudenta">Dodaj novog studenta</string>
+    <string name="MTIPStudentiDetaljiID">ID : </string>
+    <string name="MTIPStudentiDetaljiPrezime">Prezime : </string>
+    <string name="MTIPStudentiDetaljiIme">Ime : </string>
+    <string name="MTIPStudentiDetaljiBrojIndeksa">Broj indeksa : </string>
+    <string name="MTIPStudentiDetaljiStudijskiProgram">Smer : </string>
+    <string name="MTIPStudentiDetaljiIzmeniStudenta">Izmena</string>
+    <string name="MTIPStudentiDetaljiObrisiStudenta">Brisanje</string>
+    <string name="MTIPStudentiPotvrdi">Potvrdi</string>
+    <string name="MTIPStudentiOdustani">Odustani</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

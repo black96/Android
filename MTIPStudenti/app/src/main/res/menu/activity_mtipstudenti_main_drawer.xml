@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navBar_Kalkulator"
+            android:icon="@drawable/nav_pretraga"
+            android:title="@string/navBar_Kalkulator" />
+        <item
+            android:id="@+id/navBar_Pretraga"
+            android:icon="@drawable/nav_pretraga"
+            android:title="@string/navBar_Home_Menu" />
+        <item
+            android:id="@+id/navBar_Studenti"
+            android:icon="@drawable/nav_studenti"
+            android:title="@string/navBar_Studenti_Menu" />
+        <item
+            android:id="@+id/navBar_Studijski_Programi"
+            android:icon="@drawable/nav_studijski_programi"
+            android:title="@string/navBar_Smerovi_Menu" />
+        <item
+            android:id="@+id/navBar_O_Aplikaciji"
+            android:icon="@drawable/nav_o_aplikaciji"
+            android:title="@string/navBar_O_Aplikaciji" />
+    </group>
+</menu>

@@ -1,0 +1,144 @@
+<FrameLayout xmlns:android= "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width= "match_parent"
+    android:layout_height= "match_parent"
+    tools:context= "rs.tfzr.mtipstudenti.StudentiDodavanjeFragment">
+    <LinearLayout
+        xmlns:android= "http://schemas.android.com/apk/res/android"
+        android:layout_width= "match_parent"
+        android:layout_height= "match_parent"
+        android:orientation= "vertical"
+        android:padding= "5dp"
+        android:background= "@drawable/op_background"
+        android:id= "@+id/dodavanjeIzmenaMainLinearLayout">
+        <TextView
+            android:id= "@+id/textViewStudentiNazivAkcije"
+            android:layout_width= "fill_parent"
+            android:layout_height= "wrap_content"
+            android:gravity= "center"
+            android:paddingLeft= "10dp"
+            android:paddingRight= "10dp"
+            android:paddingTop= "10dp"
+            android:text= "@string/MTIPContentDescription"/>
+        <LinearLayout
+            android:id= "@+id/linearLayoutIDStudenta"
+            android:layout_width= "match_parent"
+            android:layout_height= "wrap_content"
+            android:orientation= "horizontal"
+            android:padding= "5dp"
+            android:weightSum= "1">
+            <TextView
+                android:id= "@+id/textViewIDStudentaLABEL"
+                android:layout_height= "wrap_content"
+                android:layout_width= "90dp"
+                android:gravity= "end"
+                android:text= "@string/MTIPStudentiDetaljiID"/>
+            <EditText
+                android:id= "@+id/editTextIDStudentaDATA"
+                android:layout_width= "match_parent"
+                android:layout_height= "wrap_content"
+                android:ems= "10"
+                android:hint= "@string/MTIPStudentiFragmentHintIDStudenta"
+                android:inputType= "none"
+                android:focusedByDefault= "false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id= "@+id/linearLayoutPrezimeStudenta"
+            android:layout_width= "match_parent"
+            android:layout_height= "wrap_content"
+            android:orientation= "horizontal"
+            android:padding= "5dp">
+            <TextView
+                android:id= "@+id/textViewPrezimeLABEL"
+                android:layout_height= "wrap_content"
+                android:layout_width= "90dp"
+                android:gravity= "end"
+                android:text= "@string/MTIPStudentiDetaljiPrezime"/>
+            <EditText
+                android:id= "@+id/editTextPrezimeDATA"
+                android:layout_width= "match_parent"
+                android:layout_height= "wrap_content"
+                android:ems= "10"
+                android:hint= "@string/MTIPStudentiFragmentHintPrezime"
+                android:inputType= "text"
+                android:focusedByDefault= "false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id= "@+id/linearLayoutImeStudenta"
+            android:layout_width= "match_parent"
+            android:layout_height= "wrap_content"
+            android:orientation= "horizontal"
+            android:padding= "5dp">
+            <TextView
+                android:id= "@+id/textViewImeLABEL"
+                android:layout_height= "wrap_content"
+                android:layout_width= "90dp"
+                android:gravity= "end"
+                android:text= "@string/MTIPStudentiDetaljiIme"/>
+            <EditText
+                android:id= "@+id/editTextImeDATA"
+                android:layout_width= "match_parent"
+                android:layout_height= "wrap_content"
+                android:ems= "10"
+                android:hint= "@string/MTIPStudentiFragmentHintIme"
+                android:inputType= "text"
+                android:focusedByDefault= "false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id= "@+id/linearLayoutBrojIndeksaStudenta"
+            android:layout_width= "match_parent"
+            android:layout_height= "wrap_content"
+            android:orientation= "horizontal"
+            android:padding= "5dp">
+            <TextView
+                android:id= "@+id/textViewBrojIndeksaLABEL"
+                android:layout_height= "wrap_content"
+                android:layout_width= "90dp"
+                android:gravity= "end"
+                android:text= "@string/MTIPStudentiDetaljiBrojIndeksa"/>
+            <EditText
+                android:id= "@+id/editTextIndeksDATA"
+                android:layout_width= "match_parent"
+                android:layout_height= "wrap_content"
+                android:ems= "10"
+                android:hint= "@string/MTIPStudentiFragmentHintBrojIndeksa"
+                android:inputType= "text"
+                android:focusedByDefault= "false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id= "@+id/linearLayoutStudijskiProgramStudenta"
+            android:layout_width= "match_parent"
+            android:layout_height= "wrap_content"
+            android:orientation= "horizontal"
+            android:padding= "5dp">
+            <TextView
+                android:id= "@+id/textViewStudijskiProgramLABEL"
+                android:layout_width= "90dp"
+                android:layout_height= "wrap_content"
+                android:gravity= "end"
+                android:text= "@string/MTIPStudentiDetaljiStudijskiProgram"/>
+            <Spinner
+                android:id= "@+id/spinnerStudijskiProgrami"
+                android:layout_width= "match_parent"
+                android:layout_height= "wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id= "@+id/linearLayoutTasteriPotvrdiOdustani"
+            android:layout_width= "match_parent"
+            android:layout_height= "wrap_content"
+            android:orientation= "horizontal">
+            <Button
+                android:id= "@+id/buttonPotvrdi"
+                android:layout_width= "wrap_content"
+                android:layout_height= "wrap_content"
+                android:layout_weight= "1"
+                android:text= "@string/MTIPStudentiPotvrdi"/>
+            <Button
+                android:id= "@+id/buttonOdustani"
+                android:layout_width= "wrap_content"
+                android:layout_height= "wrap_content"
+                android:layout_weight= "1"
+                android:text= "@string/MTIPStudentiOdustani"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
